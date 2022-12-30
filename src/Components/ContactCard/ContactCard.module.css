@@ -1,0 +1,53 @@
+.ContactCard {
+    padding: 20px;
+    height: 300px;
+    background-color: #fff;
+    box-shadow: 0 5px 10px #ccc;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: transform 1s;
+    border-radius: 20px;
+}
+
+.ContactCard div {
+    margin-bottom: 20px;
+}
+
+.Icon {
+    width: 50px;
+    height: 50px;
+    padding: 20px;
+    border-radius: 50%;
+    background-color: #ccc;
+    position: relative;
+}
+
+.IconCenter {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.Body a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+
+.Body p {
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.8;
+    letter-spacing: .4px;
+}
+
+.Body a:hover {
+    text-decoration: underline;
+}
+
+.ContactCard:hover {
+    transform: translateY(-20px);
+}

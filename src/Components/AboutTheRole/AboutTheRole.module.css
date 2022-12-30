@@ -1,0 +1,13 @@
+.AboutTheRole {
+    margin: 10px 0;
+}
+
+.Title {
+    color: #339bc6;
+}
+
+.Description p {
+    line-height: 1.6;
+    letter-spacing: 1px;
+    text-align: justify;
+}

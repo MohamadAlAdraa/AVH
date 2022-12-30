@@ -1,0 +1,28 @@
+.HomeDetails {
+    background-color: #f7f9fc;
+    background-image: url('../../assets/Images/HomeDetailsBackground.png'), url('../../assets/Images/HomeDetailsBackground.png');
+    background-repeat: no-repeat, no-repeat;
+    background-position: left top, right bottom;
+    width: 100%;
+    padding-top: 110px;
+    padding-bottom: 110px;
+}
+
+.AvhService {
+    background: url('../../assets/Images/AvhServicesBackground.png');
+    background-repeat: no-repeat;
+    background-position: 0% 50%;
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+@media (max-width: 700px) {
+    .AvhService {
+        background: none;
+    }
+    .HomeDetails {
+        background-image: none;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+}

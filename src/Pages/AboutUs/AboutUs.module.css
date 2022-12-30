@@ -1,0 +1,25 @@
+.AboutUs {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    height: 100%;
+}
+
+.AboutUs p {
+    line-height: 1.8;
+    text-align: justify;
+}
+
+@media (max-width: 961px) {
+    .AboutUs {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+}
+
+@media (min-width: 4000px) {
+    .AboutUs {
+        padding-top: 233px;
+        padding-bottom: 233px;
+    }
+}

@@ -1,0 +1,22 @@
+.MainLayout {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.Body {
+    padding-top: 56px;
+    width: 100%;
+}
+
+@media (min-width: 0px) and (orientation: landscape) {
+    .Body {
+        padding-top: 48px;
+    }
+}
+
+@media (min-width: 600px) {
+    .Body {
+        padding-top: 64px;
+    }
+}
