@@ -1,3 +1,7 @@
+I worked on this project as a part of intership for an Australian company called AVH.
+Here is a demo deployed on firebase:
+https://anchor-ventures-holding.web.app/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
