@@ -1,0 +1,28 @@
+.VisionMissionBox {
+    padding: 0px 50px 50px 50px;
+    height: 395px;
+    background-color: #e6e6e6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 5px 10px #ccc;
+    transition: transform .5s;
+    position: relative;
+    border-radius: 20px;
+}
+
+.VisionMissionBox div p {
+    text-align: center;
+    letter-spacing: .7px;
+    line-height: 1.8;
+}
+
+.VisionMissionBox div h2 {
+    text-transform: uppercase;
+    color: #339bc6;
+}
+
+.VisionMissionBox:hover {
+    transform: translateY(-10px);
+}

@@ -1,0 +1,14 @@
+.ServiceContent {
+    width: 100%;
+}
+
+.ServiceContent h4,
+.ServiceContent p {
+    line-height: 1.6;
+    letter-spacing: .7px;
+    text-align: justify;
+}
+
+.ServiceContent ul li {
+    margin: 10px 0;
+}

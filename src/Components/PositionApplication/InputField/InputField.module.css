@@ -1,0 +1,67 @@
+.InputField {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.InputField div:first-child {
+    margin-bottom: 10px;
+}
+
+.InputField label {
+    margin-left: 5px;
+}
+
+.Input {
+    width: 100%;
+}
+
+.Input input {
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    background-color: #fff;
+    color: #000;
+    padding: 10px;
+}
+
+.Input input:focus {
+    background-color: #fff;
+}
+
+.FileField {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.InputFile {
+    width: 100%;
+    text-align: center;
+    border-radius: 8px;
+    padding: 50px 0px;
+    cursor: pointer;
+    background-color: #e8e8e8;
+}
+
+.InputFile:hover {
+    background-color: #DEDEDE;
+}
+
+.InputFile input {
+    display: none;
+}
+
+.FileField div:first-child {
+    margin-bottom: 10px;
+}
+
+.UploadFile,
+.PickedFileName {
+    color: #339bc6;
+}

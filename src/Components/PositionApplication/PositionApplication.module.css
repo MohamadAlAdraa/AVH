@@ -1,0 +1,31 @@
+.PositionApplication {
+    width: 100%;
+    background: #eee;
+    filter: brightness(1);
+    padding: 30px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    letter-spacing: 1px;
+}
+
+.Pc {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.TextField {
+    background-color: #fff;
+    color: #000;
+}
+
+@media (max-width: 450px) {
+    .Pc {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .Pc div:nth-child(2) {
+        align-self: flex-end;
+    }
+}

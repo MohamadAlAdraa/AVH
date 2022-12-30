@@ -1,0 +1,125 @@
+.NewsCenter {
+    width: 100%;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    height: 100%;
+}
+
+.TopNews {
+    text-transform: uppercase;
+    color: #339bc6;
+    letter-spacing: 1.5px;
+}
+
+.News {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+.NewsContent {
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.NewsContent div {
+    width: 100%;
+}
+
+.NewsImage {
+    width: 48%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.NewsImageContainer {
+    width: 100%;
+}
+
+.NewsImageContainer img {
+    width: 100%;
+    height: auto;
+}
+
+.NewsTitle {
+    width: 100%;
+    padding: 10px;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 2px;
+    background-color: #000;
+    margin-bottom: 10px;
+}
+
+.NewsDescription {
+    width: 100%;
+    line-height: 1.6;
+    letter-spacing: 1.5px;
+    margin-bottom: 10px;
+}
+
+.ReadMore1,
+.ReadMore2 {
+    text-align: center;
+    width: 100%;
+    padding: 20px;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-color: #339bc6;
+    cursor: pointer;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+.ReadMore1:hover,
+.ReadMore2:hover {
+    text-decoration: underline;
+}
+
+.ReadMore2 {
+    display: none;
+    width: 80%;
+}
+
+@media (max-width: 961px) {
+    .News {
+        flex-direction: column;
+    }
+    .NewsContent {
+        width: 80%;
+    }
+    .NewsImage {
+        width: 80%;
+    }
+    .ReadMore1 {
+        display: none;
+    }
+    .ReadMore2 {
+        display: block;
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 961px) {
+    .NewsContent {
+        width: 100%;
+    }
+    .NewsImage {
+        width: 100%;
+    }
+    .ReadMore1 {
+        display: none;
+    }
+    .ReadMore2 {
+        display: block;
+        margin-top: 10px;
+        width: 100%;
+    }
+}

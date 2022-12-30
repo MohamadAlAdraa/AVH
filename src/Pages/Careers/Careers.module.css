@@ -1,0 +1,89 @@
+.Careers {
+    width: 100%;
+    padding-top: 110px;
+    padding-bottom: 110px;
+    height: 100%;
+}
+
+.FeaturedPositionContainer {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.FeaturedPosition {
+    width: 50%;
+    /* margin: auto; */
+    color: white;
+    font-weight: 500;
+    padding: 20px;
+    margin: 10px 0;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.FeaturedPosition:hover {
+    background-color: #339bc6;
+}
+
+.AboutTheRole {
+    margin: 20px 0 10px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.AboutTheRole div:first-child {
+    align-self: flex-start;
+    margin: 20px 0px 20px 0px;
+}
+
+.Role {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.OverviewAndApplication {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.OverviewAndApplication div {
+    width: 40%;
+    cursor: pointer;
+    text-align: center;
+    color: #000;
+    font-size: 20px;
+    letter-spacing: 1.5px;
+    font-weight: 600;
+    padding: 20px;
+    background-color: #ccc;
+}
+
+@media (max-width: 961px) {
+    .FeaturedPosition {
+        width: 60%;
+    }
+    .Careers {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+}
+
+@media (max-width: 600px) {
+    .OverviewAndApplication {
+        width: 100%;
+        flex-direction: column;
+    }
+    .OverviewAndApplication div {
+        width: 100%;
+    }
+    .FeaturedPosition {
+        width: 100%;
+    }
+}
